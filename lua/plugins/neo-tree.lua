@@ -8,7 +8,6 @@ return {
     },
     config = function()
         vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal right<CR>", {})
-        vim.keymap.set("n", "<C-g>", ":Neotree git_status reveal right<CR>", {})
         require("neo-tree").setup({
             filesystem = {
                 filtered_items = {
