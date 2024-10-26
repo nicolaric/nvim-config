@@ -33,16 +33,19 @@ return {
 			lspconfig.solargraph.setup({
 				capabilities = capabilities,
 			})
-			lspconfig.html.setup({
-				capabilities = capabilities,
-			})
+			-- lspconfig.html.setup({
+			--		capabilities = capabilities,
+			-- })
 			lspconfig.lua_ls.setup({
 				capabilities = capabilities,
 			})
 			lspconfig.nxls.setup({
 				capabilities = capabilities,
 			})
-			lspconfig.tsserver.setup({
+			lspconfig.tailwindcss.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.ts_ls.setup({
 				capabilities = capabilities,
 				commands = {
 					TSOrganizeImports = {
